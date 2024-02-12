@@ -1,0 +1,36 @@
+.webpage-images {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-rows: repeat(2, 29.875rem );
+    grid-template-columns: repeat(3, 21.875rem);
+    gap: 1.88rem;
+  }
+  
+  .webdesign-site {
+    width: 21.875rem;
+    height: 29.875rem;
+    background-color: #FDF3F0;
+    border-bottom-left-radius: 0.9375rem;
+    border-bottom-right-radius: 0.9375rem;
+    text-align: center;
+  }
+  
+  .webdesign-image {
+    width: 100%;
+    border-top-left-radius: 0.9375rem;
+    border-top-right-radius: 0.9375rem;
+    margin-bottom: 2rem;
+  }
+  
+  .webdesign-content {
+    font-size: 1.25rem;
+    color: #E7816B;
+    font-weight: 500;
+    line-height: 1.625rem;
+    letter-spacing: 0.3125rem;
+    margin: 0 2rem;
+  }
+
+  .webdesign-description {
+    margin: 0 2rem;
+  }

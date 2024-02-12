@@ -1,0 +1,61 @@
+.footer {
+    background-color: #1D1C1E;
+    width: 90rem;
+    height: 24.5625rem;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    padding: 0 10.31rem 0 10.25rem;
+  }
+  
+  .footer-icon {
+    margin-right: 1rem;
+  }
+  
+  .footer-logo {
+    height: 1.6875rem;
+  }
+  
+  
+  .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9rem;
+  }
+  
+  .footer-navbar {
+    display: flex;
+    gap: 2.62rem;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer-contact {
+    display: grid;
+    grid-template-rows: 4.875rem;
+    grid-template-columns: repeat(3, 23.14rem);
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    position: relative;
+  }
+  
+  .footer-contact p {
+    font-weight: 700;
+    opacity: 0.5;
+    line-height: 1.625rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    grid-row: 1;
+    grid-column: 3;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 11.5rem;
+    gap: 1rem;
+  }

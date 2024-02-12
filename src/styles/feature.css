@@ -1,0 +1,35 @@
+.features {
+    display: grid;
+    grid-template-rows: 25.75rem;
+    grid-template-columns: repeat(3, 21.875rem);
+    text-align: center;
+    gap: 1.88rem;
+    margin-top: 10rem;
+    margin-bottom: 23.75rem;
+  }
+  
+  .passion, .resourceful, .friendly {
+    background-image: url("../../public/assets/shared/desktop/bg-pattern-small-circle.svg");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+  }
+  
+  .feature-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    letter-spacing: 0.3125rem;
+    margin: 0;
+  }
+  
+  .feature-description {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  
+  .feature-icon {
+    margin-bottom: 3rem;
+  }

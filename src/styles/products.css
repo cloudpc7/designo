@@ -1,0 +1,58 @@
+.products {
+    display: grid;
+    grid-template-rows: repeat(2, 19.25rem);
+    grid-template-columns: repeat(2, 33.81rem);
+    gap: 1.5rem;
+  }
+
+  .web-design-products {
+    display: grid;
+    grid-template-rows: 19.25rem;
+    grid-template-columns: repeat(2, 33.81rem);
+    gap: 1.5rem;
+    margin-top: 10rem;
+    margin-bottom: 23.75rem;
+  }
+
+  .app {
+    grid-row: 1;
+    grid-column: 1;
+    background-image: url("../../public/assets/home/desktop/image-app-design.jpg");
+  }
+
+  .graphic {
+    grid-row: 1;
+    grid-column: 2;
+    background-image: url("../../public/assets/home/desktop/image-graphic-design.jpg");
+    
+  }
+  
+  .web-design {
+    grid-row: 1/-1;
+    grid-column: 1;
+    background-image: url("../../public/assets/home/desktop/image-web-design-large.jpg");
+  }
+  
+  .app-design {
+    grid-row: 1;
+    grid-column: 2;
+    background-image: url("../../public/assets/home/desktop/image-app-design.jpg")
+  }
+  
+  .graphic-design {
+    grid-row: 2;
+    grid-column: 2;
+    background-image: url("../../public/assets/home/desktop/image-graphic-design.jpg");
+  }
+  
+  .web-design, .app-design, .graphic-design, .app, .graphic {
+    border-radius: 0.9375rem;
+    background-color: #000;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+  }

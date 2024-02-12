@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 69.43rem;
+    margin: 4rem 10.25rem 0 10.31rem;
+  }
+  
+  .company-logo {
+    width: 12.25rem;
+    height: 1.5rem;
+    margin-right: auto;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 2.62rem;
+    margin-bottom: 4.38rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333136;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.125rem;
+    line-height: 0.875rem;
+  }
