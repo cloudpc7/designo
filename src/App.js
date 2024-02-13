@@ -7,7 +7,7 @@ import Footer from "./Components/Footer";
 import "./styles/app.css";
 import WebDesign from "./pages/WebDesign";
 import Home from "./pages/Home";
-
+import AppDesign from "./pages/AppDesign"
 import data from "./data"
 
 export default function App() {
@@ -37,6 +37,15 @@ export default function App() {
               cards = {cards}
             />} 
 
+        />
+        <Route 
+          path="/appdesign"
+          element=
+          {
+            <AppDesign
+
+            />
+          }
         />
       </Routes>
       <Modal />
