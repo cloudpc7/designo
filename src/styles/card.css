@@ -1,0 +1,54 @@
+.card-site-about {
+    width: 69.4375rem;
+    height: 40rem;
+    margin-top: 10rem;
+    margin-bottom: 23.75rem;
+    border-radius: 0.9375rem;
+    background-color: #FDF3F0;
+    display: flex;
+    align-items: center;
+    padding-right: 5rem;
+}
+
+.card-site-about-deal {
+    width: 69.4375rem;
+    height: 40rem;
+    margin-top: 10rem;
+    margin-bottom: 23.75rem;
+    border-radius: 0.9375rem;
+    background-color: #FDF3F0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 5rem;
+}
+
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-title {
+    color: #E7816B;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.about-description {
+    margin: 0;
+    line-height: 1.625rem;
+}
+
+.about-design-img {
+    border-radius: 0.9375rem;
+    margin-right: 5.88rem;
+}
+
+.about-design-img-deal {
+    border-radius: 0.9375rem;
+    margin-left: 5.88rem;
+}

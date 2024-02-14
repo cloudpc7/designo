@@ -2,7 +2,16 @@ import Products from "../Components/Products"
 import Hero from "../Components/Hero"
 import Feature from "../Components/Feature"
 
-export default function Home({content, isDisplayed}) {
+export default function Home({content, isDisplayed, btnDisplay, features}) {
+
+    const featureItems = features.map(feature => (
+
+        <Feature 
+            featureImg={feature.image}
+            featureTitle={feature.title}
+            featureContent={feature.text}
+        />
+    ))
 
     return (
         <>
@@ -12,8 +21,10 @@ export default function Home({content, isDisplayed}) {
                 heroImage={content[0].image}
                 heroLink="about"
                 isDisplayed={isDisplayed}
+                btnDisplay={btnDisplay}
                 styles="hero"
                 titleStyle="hero-title"
+                imageStyle="phone"
             />
             <div className="products">
             <Products 
@@ -32,7 +43,9 @@ export default function Home({content, isDisplayed}) {
                 cardTitle="GRAPHIC DESIGN"
             />
             </div>
-            <Feature />
+            <div className="features">
+                {featureItems}
+            </div>
         </>
     )
 

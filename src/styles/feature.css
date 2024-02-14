@@ -5,7 +5,6 @@
     text-align: center;
     gap: 1.88rem;
     margin-top: 10rem;
-    margin-bottom: 23.75rem;
   }
   
   .passion, .resourceful, .friendly {
@@ -23,13 +22,26 @@
   }
   
   .feature-description {
-    font-size: 1rem;
+    font-size: .925rem;
     line-height: 1.625rem;
     font-weight: 400;
-    margin-top: 2rem;
-    margin-bottom: 0;
+    /* margin-top: 2rem;
+    margin-bottom: 0; */
   }
   
   .feature-icon {
     margin-bottom: 3rem;
+  }
+
+  .location-btn {
+    width: 9.5rem;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    background-color: #E7816B;
+    color: #fff;
+    text-align: center;
+    font-size: 0.9375rem;
+    letter-spacing: 0.0625rem;
+    border: none;
+    margin-top: 2rem;
   }

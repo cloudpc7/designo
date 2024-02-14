@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../styles/hero.css"
 
-export default function Hero({heroTitle, heroText, heroLink,heroImage, isDisplayed,styles,titleStyle}) {
+export default function Hero({heroTitle, heroText, heroLink,heroImage, isDisplayed,styles,titleStyle,imageStyle, btnDisplay}) {
 
   return (
     <>
@@ -10,14 +10,14 @@ export default function Hero({heroTitle, heroText, heroLink,heroImage, isDisplay
         <h1>{heroTitle}</h1>
         <p>{heroText}</p>
         {
-         isDisplayed && <Link to={heroLink}>
+         btnDisplay && <Link to={heroLink}>
           <button className="btn">LEARN MORE</button>
         </Link>
         }
         
       </div>
         {
-         isDisplayed && <img className="phone" src={heroImage} alt="phone" />
+         isDisplayed && <img className={imageStyle} src={heroImage} alt="phone" />
         }
     </div>
     </>

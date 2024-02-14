@@ -20,6 +20,12 @@
     background-image: url("../../public/assets/home/desktop/image-app-design.jpg");
   }
 
+  .graphic-app {
+    grid-row: 1;
+    grid-column: 2;
+    background-image: url("../../public/assets/home/desktop/image-app-design.jpg");
+  }
+
   .graphic {
     grid-row: 1;
     grid-column: 2;
@@ -45,7 +51,7 @@
     background-image: url("../../public/assets/home/desktop/image-graphic-design.jpg");
   }
   
-  .web-design, .app-design, .graphic-design, .app, .graphic {
+  .web-design, .app-design, .graphic-design, .app, .graphic, .graphic-app {
     border-radius: 0.9375rem;
     background-color: #000;
     background-repeat: no-repeat;

@@ -28,7 +28,95 @@
     padding-right: 22rem;
     border-radius: 0.9375rem;
   }
+
+  .hero-appdesign {
+    width: 69.4375rem;
+    height: 15.75rem;
+    background-color: #E7816B;
+    background-image: url("../../public/assets/app-design/desktop/bg-pattern-intro-app.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-position: left;
+    text-align: center;
+    align-items: center;
+    padding: 4rem 23.25rem 0 23.25rem;
+    border-radius: 0.9375rem;
+    gap: 1.5rem;
+    margin-bottom: 10.38rem;
+  }
+
+  .hero-graphicdesign {
+    width: 69.4375rem;
+    height: 15.75rem;
+    background-color: #E7816B;
+    background-image: url("../../public/assets/graphic-design/desktop/bg-pattern-intro-graphic.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 4rem 23.25rem 0 23.25rem;
+    border-radius: 0.9375rem;
+    gap: 1.5rem;
+    margin-bottom: 10.38rem;
+  }
+
+  .hero-about {
+    width: 69.4375rem;
+    height: 30rem;
+    background-color: #E7816B;
+    background-image: url("../../public/assets/about/desktop/bg-pattern-hero-about-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    border-radius: 0.9375rem;
+  }
+
+  .hero-about-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 5.94rem;
+    padding-top: 8.44rem;
+  }
+
+  .hero-about-title h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 500;
+  }
+
+  .hero-about-title p {
+    line-height: 1.625rem;
+    padding-right: 4.25rem;
+  }
+
+  .hero-about-title h1, .hero-about-title p {
+    margin: 0;
+    color: #fff;
+  }
+
+  .hero-about-img {
+    width: 45rem;
+    height: 30rem;
+    border-top-right-radius: 0.9375rem;
+    border-bottom-right-radius: 0.937rem;
+  }
   
+  .hero-appdesign h1, .hero-graphicdesign h1 {
+      font-size: 3rem;
+      font-weight: 500;
+      line-height: 3rem;
+      margin: 0;
+      color: #fff;
+  }
+  
+  .hero-appdesign p, .hero-graphicdesign p {
+    color: #fff;
+    line-height: 1.625rem;
+  }
   
   .hero-title {
     width: 33.75rem;
@@ -44,6 +132,7 @@
 
   .hero-webdesign-title p {
     color: #fff;
+    margin: 0;
   }
   
   .hero-title h1{
